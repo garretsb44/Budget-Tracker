@@ -4,7 +4,7 @@
 
 ## Description:
 
-This is an application that helps the user track their budget.  This system allows for the user the add any burger, devour any burger, or put the burger back on the menu. This can help a user decide on lunch dinner, or even breakfast if they want!  
+This is an application that helps the user track their budget over time.  The app allows the user to name a transaction and decide whether or not to add or subtract to their total funds.  Each transaction gets displayed in a chart on the page so the user can look at their daily expenses. This app will help the user stay more accountable and within their budget. 
 
 ## Table of Contents:
 
@@ -19,20 +19,22 @@ This is an application that helps the user track their budget.  This system allo
 ## Installation:
 
 - The user must install all npm packages in order to run application
-- this app uses express, express handlebars, and mysql 
+- this app uses express, mongoose, and compression
 
 ## Usage:
 
 This app has been deployed on heroku and needs no installs if accessed through the app link.  However, if the user doesn't have access to heroku link then user must install all packages. The user can then run npm start and go to their local host in the browser to access the app.   
 
-- You can access the app at https://afternoon-everglades-05163.herokuapp.com/
+![Demo Img](/public/screenshot.png?raw=true "App Screenshot")
+
+- You can access the app at https://shrouded-anchorage-43672.herokuapp.com/
 
 ## Features:
 
-* Allow user to add their own burgers 
-* User can eat devour the burger or put back on the menu 
-
- 
+* Allow user to name a certain transaction with a certain 
+* Attach amount to transaction 
+* Add/Subtract transactions from total funds
+* Display expenses in timeline 
 
 ## Credits:
 
